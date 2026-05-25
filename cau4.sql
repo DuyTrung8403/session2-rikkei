@@ -45,7 +45,7 @@ CREATE TABLE elearning.Assignments    (
 
 
 
-CREATE TABLE elearning.Assignments    (
+CREATE TABLE elearning.Submissions     (
     submission_id SERIAL PRIMARY KEY ,
     assignment_id INT ,
     FOREIGN KEY (assignment_id) references elearning.Assignments (assignment_id),
